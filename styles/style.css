@@ -47,6 +47,11 @@ header {
 background: rgb(17,17,17);
 background: linear-gradient(0deg, rgba(17,17,17,1) 38%, rgba(119,119,119,1) 100%);
 }
+.hamburg img {
+    height: 20px;
+    width: 20px;
+    display: none;
+}
 .navbar {
     margin-top: 35px;
 }
@@ -180,8 +185,56 @@ padding: 40px;
     max-width: 70%;
     margin: 0 auto;
     text-align: center;
-  
+    
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.team-gallery-container img {
+height: 200px;
+width: 200px;
+border-radius: 18px;
 
+}
+.name {
+    color: #ffffff;
+}
+footer {
+    background-color: #222222;
+}
+.footer-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+.footer-content {
+    padding: 48px;
+    color: #;
+}
+.get-started li {
+    list-style: none;
+}
+.get-started a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+.get-started h2 {
+    color: white;
+}
+footer h3 {
+    font-size: 1rem;
+    text-align: center;
+    border-top:   #686666 1px solid;
+padding-bottom: 20px;
+
+}
+.get-starteds {
+    gap: 64px;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+}
 
 
