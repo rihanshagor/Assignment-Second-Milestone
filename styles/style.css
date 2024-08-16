@@ -7,12 +7,20 @@ font-family: 'Miama', sans-serif; }
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
   }
 
+  *{
+    margin: 0;
+    padding: 0;
+  }
   /* shared styles */
   .orange-color {
-    background-color: #E6533C ;
+    color: #E6533C ;
+  }
+  .orange-bg{
+    background-color: #E6533C;
   }
   .light-color {
     color: rgba(255, 255, 255, 0.5);
@@ -21,3 +29,113 @@ font-family: 'Miama', sans-serif; }
     color: #ffffff;
     font-size: 2.8rem;
   }
+  .display-flex {
+    display: flex;
+  }
+
+  .btn-primary {
+    background-color:  #E6533C;
+    color: white;
+    padding: 16px 45px;
+    border-radius: 42px;
+    border: none;
+    font-weight: 600;
+}
+  /* header Styles  */
+/* nav  */
+header {
+background: rgb(17,17,17);
+background: linear-gradient(180deg, rgba(17,17,17,1) 38%, rgba(119,119,119,1) 100%);
+}
+.navbar {
+    margin-top: 35px;
+}
+.logo {
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.navbar,.banner{
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    border: rgba(255, 255, 255, 0.1) 2px solid;
+    border-radius: 46px;
+    padding: 5px 10px;
+    gap: 40px;
+    margin-top: 50px;
+}
+.nav-item {
+    list-style: none;
+    padding: 8px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+#home {
+    border-radius: 46px;
+    text-decoration: none;
+    padding: 10px 35px;
+}
+/* banner */
+.banner-title {
+    font-size: 4.7rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.shape {
+    font-size: 5rem;
+    letter-spacing:1rem;
+}
+.banner-description {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#download{
+    background-color: transparent;
+    border: rgba(255, 255, 255, 0.1) 1px solid;
+    border-radius: ;
+}
+.btn{
+    gap: 20px
+;
+}
+/* Habit Section Style */
+.habit {
+    background-color: black;
+}
+.habit-content {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.card-title {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.card-description {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.habit-card{
+ text-align: center;
+ margin: 60px 0;
+}
+.habit-content h1 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.card-image{
+    border-radius: 50%;
+}
+
