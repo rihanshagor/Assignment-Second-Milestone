@@ -45,7 +45,7 @@ font-family: 'Miama', sans-serif; }
 /* nav  */
 header {
 background: rgb(17,17,17);
-background: linear-gradient(180deg, rgba(17,17,17,1) 38%, rgba(119,119,119,1) 100%);
+background: linear-gradient(0deg, rgba(17,17,17,1) 38%, rgba(119,119,119,1) 100%);
 }
 .navbar {
     margin-top: 35px;
@@ -138,4 +138,50 @@ background: linear-gradient(180deg, rgba(17,17,17,1) 38%, rgba(119,119,119,1) 10
 .card-image{
     border-radius: 50%;
 }
+/* Run style  */
+.run {
+    background-color: #222222;
+    max-width: 70%;
+    border-radius: 18px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.run h1, p {
+ margin-bottom: 30px;
+}
+.run-content{
+padding: 40px;
+}
+.run-image-container{
+
+}
+.run-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 46px;
+    margin: 50px;
+}
+.bmi-content {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 60px;
+}
+.bmi-content p, h1 {
+    margin-bottom: 20px;
+}
+
+/* team style */
+.team {
+    background-color: black;
+}
+.team-container {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+
 
