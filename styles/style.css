@@ -104,7 +104,6 @@ background: linear-gradient(0deg, rgba(17,17,17,1) 38%, rgba(119,119,119,1) 100%
 #download{
     background-color: transparent;
     border: rgba(255, 255, 255, 0.1) 1px solid;
-    border-radius: ;
 }
 .btn{
     gap: 20px
@@ -228,6 +227,7 @@ footer h3 {
     text-align: center;
     border-top:   #686666 1px solid;
 padding-bottom: 20px;
+font-weight: lighter;
 
 }
 .get-starteds {
